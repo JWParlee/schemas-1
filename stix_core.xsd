@@ -103,7 +103,7 @@
 					<xs:documentation>The Title field provides a simple title for this STIX Package.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="Package_Intent" type="stixCommon:ControlledVocabularyStringType" minOccurs="0">
+			<xs:element name="Package_Intent" type="stixCommon:ControlledVocabularyStringType" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>
 						The Package_Intent field characterizes the intended purpose or use for this package of STIX content.
